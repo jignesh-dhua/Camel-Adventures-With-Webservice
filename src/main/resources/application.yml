@@ -1,0 +1,15 @@
+spring:
+  application:
+    name: CAMEL-ADVENTURES-WITH-WEBSERVICE
+  output:
+    ansi:
+      enabled: always
+      
+server:
+  port: 8080
+  
+camel:
+  component:
+    servlet:
+      mapping:
+        contextPath: /*
